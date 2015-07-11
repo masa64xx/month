@@ -14,6 +14,10 @@
 		A50ACA171B4E6717002E4885 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50ACA161B4E6717002E4885 /* Images.xcassets */; };
 		A50ACA1A1B4E6717002E4885 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A50ACA181B4E6717002E4885 /* LaunchScreen.xib */; };
 		A50ACA261B4E6718002E4885 /* monthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50ACA251B4E6718002E4885 /* monthTests.swift */; };
+		A50ACA3B1B4FACAC002E4885 /* autoum.png in Resources */ = {isa = PBXBuildFile; fileRef = A50ACA371B4FACAC002E4885 /* autoum.png */; };
+		A50ACA3C1B4FACAC002E4885 /* spring.png in Resources */ = {isa = PBXBuildFile; fileRef = A50ACA381B4FACAC002E4885 /* spring.png */; };
+		A50ACA3D1B4FACAC002E4885 /* summer.png in Resources */ = {isa = PBXBuildFile; fileRef = A50ACA391B4FACAC002E4885 /* summer.png */; };
+		A50ACA3E1B4FACAC002E4885 /* winter.png in Resources */ = {isa = PBXBuildFile; fileRef = A50ACA3A1B4FACAC002E4885 /* winter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		A50ACA1F1B4E6717002E4885 /* monthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = monthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50ACA241B4E6718002E4885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A50ACA251B4E6718002E4885 /* monthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monthTests.swift; sourceTree = "<group>"; };
+		A50ACA371B4FACAC002E4885 /* autoum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = autoum.png; path = "../../../LIT!!/pic/autoum.png"; sourceTree = "<group>"; };
+		A50ACA381B4FACAC002E4885 /* spring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spring.png; path = "../../../LIT!!/pic/spring.png"; sourceTree = "<group>"; };
+		A50ACA391B4FACAC002E4885 /* summer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = summer.png; path = "../../../LIT!!/pic/summer.png"; sourceTree = "<group>"; };
+		A50ACA3A1B4FACAC002E4885 /* winter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = winter.png; path = "../../../LIT!!/pic/winter.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 		A50ACA091B4E6717002E4885 /* month */ = {
 			isa = PBXGroup;
 			children = (
+				A50ACA371B4FACAC002E4885 /* autoum.png */,
+				A50ACA381B4FACAC002E4885 /* spring.png */,
+				A50ACA391B4FACAC002E4885 /* summer.png */,
+				A50ACA3A1B4FACAC002E4885 /* winter.png */,
 				A50ACA0C1B4E6717002E4885 /* AppDelegate.swift */,
 				A50ACA111B4E6717002E4885 /* ViewController.swift */,
 				A50ACA131B4E6717002E4885 /* Main.storyboard */,
@@ -195,9 +207,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50ACA3D1B4FACAC002E4885 /* summer.png in Resources */,
+				A50ACA3B1B4FACAC002E4885 /* autoum.png in Resources */,
 				A50ACA151B4E6717002E4885 /* Main.storyboard in Resources */,
 				A50ACA1A1B4E6717002E4885 /* LaunchScreen.xib in Resources */,
+				A50ACA3E1B4FACAC002E4885 /* winter.png in Resources */,
 				A50ACA171B4E6717002E4885 /* Images.xcassets in Resources */,
+				A50ACA3C1B4FACAC002E4885 /* spring.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
